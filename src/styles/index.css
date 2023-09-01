@@ -1,0 +1,116 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-grey1);
+    font-size: var(--font1);
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+    margin: 1rem;
+    padding: 1rem;
+    /* background-color: antiquewhite; */
+}
+
+.house__btn, #all{
+    height: 50px;
+    width: 100px;
+    border: none;
+    border-radius: 0.40rem;
+    background-color: var(--color-grey3);
+    font-size: var(--font2);
+    font-weight: bold;
+}
+
+#all:hover{
+    background-color: var(--color-grey2);
+    color: var(--color-grey4);
+}
+
+#gryffindor:hover{
+    background-color: var(--color-gryffindor);
+}
+
+#slytherin:hover{
+    background-color: var(--color-slyntherin);
+}
+
+#hufflepuff:hover{
+    background-color: var(--color-hufflepuff);
+}
+
+#ravenclaw:hover{
+    background-color: var(--color-ravenclaw);
+}
+
+#all:focus{
+  background-color: var(--color-grey2);
+  color: var(--color-grey4);
+} 
+
+#gryffindor:focus{
+  background-color: var(--color-gryffindor);
+}
+
+#slytherin:focus{
+  background-color: var(--color-slyntherin);
+}
+
+#hufflepuff:focus{
+  background-color: var(--color-hufflepuff);
+}
+
+#ravenclaw:focus{
+  background-color: var(--color-ravenclaw);
+}
+
+main{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.main__list {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.main__list li{
+  border: 1px solid;
+  border-radius: 1rem;
+
+  padding: 2rem;
+
+  width: 360px;
+  height: 450px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main__list > li > img {
+  width: 200px;
+  height: 220px;
+}
+
+.nameCharacter {
+  font-size: 2rem;
+}
+
+.houseCharacter {
+  font-size: 1.5rem;
+}
+

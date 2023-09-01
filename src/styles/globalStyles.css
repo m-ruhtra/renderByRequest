@@ -1,0 +1,22 @@
+:root{
+    --color-grey1: #141414;
+    --color-grey2: #313131;
+    --color-grey3: #a09f9f;
+    --color-grey4: #ececec;
+
+    --color-gryffindor: #8b0000;
+    --color-slyntherin: #1a472a;
+    --color-hufflepuff: #ecb939;
+    --color-ravenclaw: #0e1a40;
+
+    --color-whiteFixed: #ffffff;
+
+    --font1: 1.75rem;
+    --font2: 1rem;
+
+    border-radius: 0.40rem;
+}
+
+body {
+    color: var(--color-grey3);
+}
